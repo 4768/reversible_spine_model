@@ -13,11 +13,11 @@ This simulation framework models cortical microcircuits with detailed dendritic 
 ├── requirements.txt          # Python dependencies
 ├── exp1_d1/                 # Experiment 1: D1 test phase
 ├── exp1_d3/                 # Experiment 1: D3 test phase  
-├── exp2/                    # Experiment 2: Basic setup
-├── exp2_norm/               # Experiment 2: Normalized weights
+├── exp2/                    # Experiment 2: Experimental setup
+├── exp2_norm/               # Experiment 2: Normal control
 ├── exp2_rand/               # Experiment 2: Random seeds
 ├── seed_search/             # Tools for finding suitable random seeds
-└── orig/                    # Original full experiment
+└── orig/                    # Original full simulation
 ```
 
 ## Installation
@@ -88,7 +88,7 @@ Baseline experiments with different weight configurations:
 - **exp2_norm/**: Normalized weight distributions  
 - **exp2_rand/**: Random seed variations
 
-### Original Full Experiment
+### Original Full Simulation
 
 - **orig/**: Complete multi-phase learning protocol with training, testing, and extinction phases
 
