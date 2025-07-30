@@ -15,7 +15,7 @@ This simulation framework models cortical microcircuits with detailed dendritic 
 ├── exp1_d3/                 # Experiment 1: D3 test phase  
 ├── exp2/                    # Experiment 2: Experimental setup
 ├── exp2_norm/               # Experiment 2: Normal control
-├── exp2_rand/               # Experiment 2: Random seeds
+├── exp2_rand/               # Experiment 2: Random control
 ├── seed_search/             # Tools for finding suitable random seeds
 └── orig/                    # Original full simulation
 ```
