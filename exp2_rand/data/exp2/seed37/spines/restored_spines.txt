@@ -1,0 +1,1 @@
+spine_id	weight_before_D1	weight_after_D1	weight_restored
