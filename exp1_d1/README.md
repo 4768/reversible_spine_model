@@ -16,14 +16,6 @@ This experiment specifically uses weights from the "After D1 train" timepoint to
 
 ## Running the Experiment
 
-### Local Testing
-
-For quick testing with reduced simulation duration:
-
-```bash
-python run_experiment_D1.py --test-mode
-```
-
 ### HPC Deployment
 
 To submit the job to a SLURM scheduler:
@@ -44,13 +36,7 @@ mpiexec -n 4 nrniv -python -mpi run_experiment_D1.py
 
 - **Weight Loading Period**: "After D1 train"
 - **Activity Data Timepoint**: "D1 test 4k"
-- **Time Range**: 103000-118000 ms
-- **Stimulation Weight**: Fixed maximum of 15.0 for all spines
 - **Trial Structure**: 2s pre-stim → 2s stim → 2s cool (repeated for both coherent and incoherent groups)
-
-## Analysis
-
-Results will be saved to the `results_fixed_max` directory in NetPyNE format (.json/.pkl) containing all recorded traces and simulation data.
 
 ## Notes
 
