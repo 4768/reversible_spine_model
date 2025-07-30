@@ -6,9 +6,8 @@ This directory contains tools for automatically searching for suitable random se
 
 The seed search tool evaluates random seeds based on:
 
-1. **Spine change rates**: Ensures elimination rates are higher than formation rates
-2. **Branch activity patterns**: Analyzes tuning differences between baseline and test conditions
-3. **Statistical significance**: Uses t-tests to identify significantly tuned branches
+1. **Branch activity patterns**: Analyzes tuning differences between baseline and test conditions
+2. **Statistical significance**: Uses t-tests to identify significantly tuned branches
 
 ## Files
 
@@ -72,7 +71,7 @@ The script expects these files in the data directories:
 
 **Baseline data** (in `data_dir`):
 - `Branch_activity_node_{0-19}_{seed}.txt`
-- `spine_elim_form_node_{0-19}_{seed}.txt` (optional)
+- `spine_elim_form_node_{0-19}_{seed}.txt`
 
 **D3 test data** (in `norm_dir`):
 - `Branch_activity_node_{0-19}.txt`
