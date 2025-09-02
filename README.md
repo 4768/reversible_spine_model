@@ -80,7 +80,7 @@ Tests how dendritic spines respond to coherent (correlated) vs incoherent stimul
 - **exp1_d1/**: Tests using weights after D1 training phase
 - **exp1_d3/**: Tests using weights before D3 test phase
 
-### Experiment 2: Control Studies
+### Experiment 2: Effects of Dendritic Tuning on Spine Elimination
 
 Baseline experiments with different weight configurations:
 
