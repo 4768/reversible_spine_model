@@ -130,14 +130,3 @@ sbatch script.cmd
 
 **Note**: Update the email address and resource requirements in job scripts before submission.
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```
-[Add appropriate citation when published]
-```
-
-## License
-
-[Add appropriate license information]
